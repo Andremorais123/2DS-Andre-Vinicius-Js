@@ -36,9 +36,18 @@ console.log(contaPaga == 1);
 let minhaVar;
 letvarNull = null;
 let numero = 3;
-let String = 'oi'
+let string = 'oi'
 
 console.log( typeof minhaVar);
 console.log( typeof varNull);
 console.log(typeof numero);
-console.log(typeof String);
+console.log(typeof string);
+
+//conversão implícita 
+
+const numeroNumber = 786
+const numeroString = "786"
+
+console.log(numeroNumber == numeroString) // comparando os valores
+console.log(numeroNumber == numeroString) // comparando os tipos
+console.log(numeroNumber + numeroString) // conversão implícita (concatenação de string)
